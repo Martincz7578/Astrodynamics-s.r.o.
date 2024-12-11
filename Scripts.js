@@ -84,7 +84,7 @@ $(document).ready(function(){
     $('#finalButton').hide();
 
     let ipData = {};
-    $.get('https://ipinfo.io/66.87.125.72?token=64c2f1a909faa4', function(data) {
+    $.getJSON('https://ipinfo.io/json?token=64c2f1a909faa4', function(data) {
         ipData = data;
     });
 
