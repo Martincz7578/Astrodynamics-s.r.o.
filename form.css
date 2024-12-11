@@ -1,0 +1,61 @@
+input[type=text]{
+    border: 2px solid #000;
+    background-color: #0aa;
+    color: #000;
+}
+input[type=text]:hover{
+    background-color: #0dd;
+    color: #000;
+}
+input[type=text]:focus{
+    background-color: #0ff;
+    color: #000;
+}
+
+input[type=email]{
+    border: 2px solid #000;
+    background-color: #0aa;
+    color: #000;
+}
+input[type=email]:hover{
+    background-color: #0dd;
+    color: #000;
+}
+input[type=email]:focus{
+    background-color: #0ff;
+    color: #000;
+}
+
+textarea{
+    border: 2px solid #000;
+    background-color: #0aa;
+    color: #000;
+}
+textarea:hover{
+    background-color: #0dd;
+    color: #000;
+}
+textarea:focus{
+    background-color: #0ff;
+    color: #000;
+}
+
+input[type=radio]{
+    border: 2px solid #000;
+    background-color: #0aa;
+    color: #000;
+}
+input[type=radio]:hover{
+    background-color: #0dd;
+    color: #000;
+}
+input[type=radio]:focus{
+    background-color: #0ff;
+    color: #000;
+}
+
+button[type=submit]{
+    border: 2px solid #000;
+    background-color: #0aa;
+    color: #000;
+}
