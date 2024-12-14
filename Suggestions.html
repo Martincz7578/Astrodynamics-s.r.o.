@@ -9,7 +9,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="Scripts.js"></script>
 </head>
-<header>
+<body>
+    <header>
     <div class="title"><h1>Astrodynamics S.R.O.</h1></div>
     <button id="home" class="button">Home</button>
     <button id="about" class="button">About us</button>
@@ -18,9 +19,9 @@
     <button id="Join_us" class="button">Join us</button>
     <button id="Suggestions" class="button">Suggestions</button>
     <hr>
-</header>
-<body>
+    </header>
     <div class="bodier">
+        <div class="center">
         <h1>Fill our form!</h1>
         <form id="mail_name">
             <h6>Name</h6>
@@ -30,24 +31,25 @@
         </form>
         <form id="suggestions_form">
             <h6>How should we change our website?</h6>
-            <textarea id="web" name="web" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
+            <textarea id="web" name="1" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
             <h6>How should we change our discord?</h6>
-            <textarea id="discord" name="discord" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
+            <textarea id="discord" name="1" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
             <h6>Do you want to include more info about yourself?</h6>
-            <input type="radio" id="idy" name="info" value="yes" required>
+            <input type="radio" id="idy" name="1" value="yes" required>
             <label for="idy">Yes</label><br>
-            <input type="radio" id="idn" name="info" value="no" required>
+            <input type="radio" id="idn" name="1" value="no&nbsp;" required>
             <label for="idn">No</label><br>
             <h6>Any other info?</h6>
-            <textarea id="other" name="other" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
+            <textarea id="other" name="1" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
             <h6>Any other suggestions?</h6>
-            <textarea id="additional_suggestions" name="additional_suggestions" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea><br>
+            <textarea id="additional_suggestions" name="1" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea><br>
             <button type="submit" id="submit">Submit</button>
         </form>
+        </div>
     </div>
+    <footer>
+        <hr>
+        <p>© 2023 Astrodynamics S.R.O.</p>
+    </footer>
 </body>
-<footer>
-    <hr>
-    <p>© 2023 Astrodynamics S.R.O.</p>
-</footer>
-</html>
+</html> 
