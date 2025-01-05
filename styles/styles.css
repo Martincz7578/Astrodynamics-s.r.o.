@@ -4,18 +4,21 @@ body{
     margin: 0;
     padding: 0;
 }
+
 header{
     background-color: #333;
-    color: #fff; /* Changed text color to white */
+    color: #fff;
     padding: 10px 0;
     text-align: left;
 }
+
 footer{
     background-color: #333;
-    color: #fff; /* Changed text color to white */
+    color: #fff;
     padding: 10px 0;
     text-align: left;
 }
+
 .button{
     background-color: #222;
     border: none;
@@ -29,28 +32,168 @@ footer{
     cursor: pointer;
     transition-duration: 0.4s;
 }
+
 .button:hover{
     background-color: #0aa;
     color: white;
 }
+
 .button:active{
     background-color: #0ee;
     color: white;
 }
+
 .bodier{
     background-color: #555;
     color: #000;
     padding: 10px 0;
     margin: 10px;
 }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.right{
+    text-align: right;
+}
+
+#sizeus{
+    right: 4in;
+}
+
 .p{
     padding: 10px;
     margin: 20px;
 }
+
 .title{
     margin: 1cm;
 }
 
 .center{
     text-align: center;
+}
+
+@keyframes small{
+    from{
+        font-size: medium;
+    }
+    to{
+        font-size: small;
+    }
+}
+
+.small{
+    font-size: small;
+    animation-name: small;
+    animation-duration: 2s;
+}
+
+@keyframes medium{
+    from{
+        font-size: xx-large;
+    }
+    to{
+        font-size: medium;
+    }
+}
+
+.medium{
+    font-size: medium;
+    animation-name: medium;
+    animation-duration: 4s;
+}
+
+@keyframes large{
+    from{
+        font-size: small;
+    }
+    to{
+        font-size: large;
+    }
+}
+
+.large{
+    font-size: large;
+    animation-name: large;
+    animation-duration: 4s;
+}
+
+@keyframes larger{
+    from{
+        font-size: large;
+    }
+    to{
+        font-size: larger;
+    }
+}
+
+.larger{
+    font-size: larger;
+    animation-name: larger;
+    animation-duration: 2s;
+}
+
+@keyframes xlarge{
+    from{
+        font-size: larger;
+    }
+    to{
+        font-size: x-large;
+    }
+}
+
+.xlarge{
+    font-size: x-large;
+    animation-name: xlarge;
+    animation-duration: 2s;
+}
+
+@keyframes xxlarge{
+    from{
+        font-size: x-large;
+    }
+    to{
+        font-size: xx-large;
+    }
+}
+
+.xxlarge{
+    font-size: xx-large;
+    animation-name: xxlarge;
+    animation-duration: 2s;
+}
+
+@media screen and (max-width: 480px){
+    body{
+        font-size: smaller;
+    }
+}
+
+@media screen and (max-width: 720px){
+    body{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    body{
+        font-size: medium;
+    }
+    
+}
+
+@media screen and (max-width: 1440px){
+    body{
+        font-size: large;
+    }
+    
 }

@@ -15,25 +15,6 @@ function showButtonIfAllClicked() {
 
 $(document).ready(function(){
     console.log('Document is ready');
-    $('#home').click(function(){
-        window.location.href = 'index.html';
-        console.log('Home is clicked');
-    });
-    $('#about').click(function(){
-        window.location.href = 'about.html';
-    });
-    $('#contact').click(function(){
-        window.location.href = 'contact.html';
-    });
-    $('#services').click(function(){
-        window.location.href = 'services.html';
-    });
-    $('#Join_us').click(function(){
-        window.location.href = 'join_us.html';
-    });
-    $('#Suggestions').click(function(){
-        window.location.href = 'suggestions.html';
-    });
 
     $('#submit').hide();
 

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/buttons.js"></script>
 </head>
 <body>
     <header>
@@ -43,13 +44,21 @@
             <textarea id="other" name="1" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea>
             <h6>Any other suggestions?</h6>
             <textarea id="additional_suggestions" name="1" rows="10" cols="50" placeholder="Write your suggestions here." required></textarea><br>
-            <button type="submit" id="submit">Submit</button>
+            <button type="submit" class="button" id="submit">Submit</button>
         </form>
         </div>
     </div>
     <footer>
         <hr>
-        <p>© 2023 Astrodynamics S.R.O.</p>
+        <div>
+            <div class="absolute">
+                <p>© 2023 Astrodynamics S.R.O.</p>
+            </div>
+            <h5 class="right" id="sizeus"></h5>
+            <div class="right">
+                <button name="size" id="size" class="button">Text size</button>
+            </div>
+        </div>
     </footer>
 </body>
 </html> 
